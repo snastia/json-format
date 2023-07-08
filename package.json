@@ -1,0 +1,32 @@
+{
+  "name": "json-format",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --public-url /json-format/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snastia/json-format.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snastia/json-format/issues"
+  },
+  "homepage": "https://github.com/snastia/json-format#readme",
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "parcel": "^2.9.3",
+    "parcel-bundler": "^1.11.0",
+    "parcel-transformer-hbs": "^1.0.4"
+  },
+  "devDependencies": {
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  }
+}
