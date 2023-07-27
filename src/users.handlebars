@@ -1,8 +1,13 @@
-{{#each this}}
-<form class="form">
+<div class="box">
+<p>list of users</p>
+<ul>
+   {{#each this}}
+<li>
    <p class="text">Ім'я: {{user}}</p>
    <p class="text">Вік: {{age}}</p>
    <p class="text">Айді: {{id}}</p>
    <button type="submit">відправити данні</button>
-</form>
+</li>
 {{/each}}
+</ul>
+</div>

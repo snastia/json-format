@@ -1,5 +1,5 @@
-[
-    {
+const users = [
+    {    
       "user": "Anton",
       "age": 16,
       "id": 1
@@ -26,3 +26,4 @@
       }
 ]
 
+export default users;
